@@ -1,21 +1,76 @@
-# ecommerce-analysis
 # E-Commerce Sales Analysis
 
-Python project analysing 500,000+ real UK retail transactions.
+## About the Project
 
-## Tools
-Python · NumPy · Pandas · Matplotlib · Seaborn
+This project analyzes an online retail dataset containing around 500,000 transactions from a UK-based store.
 
-## What it does
-- Cleans raw data (removes cancellations, missing values, negatives)
-- Calculates total revenue, orders, customers, avg order value
-- Finds top products and countries by revenue
-- Generates 7 charts: trend lines, bar charts, heatmap
-- NumPy stats: mean, median, std, percentiles, trend line
+The goal is to understand sales trends, identify top-performing products, and gain insights into customer behavior.
 
-## How to run
-pip install numpy pandas matplotlib seaborn openpyxl
-python ecommerce_analysis.py
+---
+
+## Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+---
+
+## Work Done
+
+* Cleaned raw data (removed missing values and cancellations)
+* Created a Revenue column
+* Performed analysis on products, countries, and time
+* Built multiple visualizations
+
+---
+
+## Key Insights
+
+* United Kingdom generates the highest revenue
+* A few products contribute most of the sales
+* Sales vary across months
+* Certain days have higher order volume
+
+---
+
+## Project Output
+
+### Monthly Revenue
+
+![Monthly](./chart1_monthly_revenue.png)
+
+### Top Products
+
+![Products](./chart2_top_products.png)
+
+### Top Countries
+
+![Countries](./chart3_top_countries.png)
+
+### Orders by Day
+
+![Orders](./chart4_orders_by_day.png)
+
+### Revenue Distribution
+
+![Distribution](./chart5_revenue_distribution.png)
+
+### Heatmap
+
+![Heatmap](./chart6_heatmap.png)
+
+---
+
+## How to Run
+
+pip install pandas matplotlib seaborn numpy openpyxl
+python ecommerce_sales_analysis.py
+
+---
 
 ## Dataset
-UCI Online Retail — 541,000 real transactions (2010–2011)
+
+UCI Online Retail dataset (2010–2011)
